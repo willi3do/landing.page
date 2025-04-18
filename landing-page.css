@@ -48,6 +48,8 @@ ul, li {
 }
 
 .me {
+    box-sizing: border-box;
+    border-radius: 5px;
 
 }
 
@@ -74,7 +76,7 @@ height: 100px;
 border-radius: 10px;
 }
 
-/* <class GG> quate */
+/* <class GG> quote */
 
 .gg-container {
     text-align: center;
