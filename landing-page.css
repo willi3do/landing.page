@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+    font-family: "Roboto", sans-serif;
     background-color: hsl(180, 25%, 25%);
     display: flex;
     flex-direction: column;
@@ -18,7 +21,7 @@ ul, li {
 
 /* header */
 .header-container {
-    background-color: rgba(22, 70, 70, 0.732);
+    background-color: #1f2937;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -37,20 +40,34 @@ ul, li {
 }
 
 .header-logo {
-    color: whitesmoke;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 /* Sign up Section */
 .sign-up_section {
+    color: #f9faf8;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    background-color: rgb(16, 125, 105);
+    background-color: #1f2937;
 }
 
 .me {
     box-sizing: border-box;
     border-radius: 5px;
 
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero2 {
+    font-size: 28px;
+    color: #e5e7eb;
 }
 
 /* Product Section */
@@ -65,7 +82,7 @@ ul, li {
 
 .product {
 /* display: block; */
-flex-direction: column;
+
 }
 
 
@@ -76,20 +93,30 @@ height: 100px;
 border-radius: 10px;
 }
 
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+
 /* <class GG> quote */
 
 .gg-container {
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: lightgray;
+    background-color: #e5e7eb;
     height: 10rem;
     padding: 5rem;
     width: auto;
 }
 
 .gg {
-    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
 }
 
 .tortuga {
@@ -101,9 +128,10 @@ border-radius: 10px;
 
 /* call to action CTA */
 .CTA {
+
     display: flex;
     flex-direction: row;
-    background-color: rgba(151, 151, 247, 0.415);
+    background-color: #3882f6;
 }
 
 .CTA-container {
@@ -120,5 +148,11 @@ border-radius: 10px;
     position: relative;
     top: 1.6rem;
     left: 7rem;
+}
 
+/* multiple selectors same items diff
+sectons.  */
+
+button {
+    background-color: #3882f6;
 }
