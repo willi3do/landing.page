@@ -47,29 +47,53 @@ ul, li {
 
 /* Sign up Section */
 .sign-up_section {
+    gap: 3rem ;
     color: #f9faf8;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin: 10% 16%;
     background-color: #1f2937;
+    box-sizing: border-box;
+    width: auto;
+    height: 100%;
 }
 
 .me {
-    box-sizing: border-box;
-    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    object-fit: cover;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content {
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .hero {
+    height: auto;
     font-size: 48px;
     font-weight: 900;
+    width: 60%;
 }
 
 .hero2 {
-    font-size: 28px;
+    height: auto;
+    width: 100%;
+    font-size: 18px;
     color: #e5e7eb;
+
 }
+
 
 /* Product Section */
 .product-container {
@@ -105,12 +129,12 @@ h2 {
 
 .gg-container {
     text-align: center;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     background-color: #e5e7eb;
-    height: 10rem;
     padding: 5rem;
-    width: auto;
+    width: fit-content;
 }
 
 .gg {
@@ -118,6 +142,7 @@ h2 {
     color: #1f2937;
     font-style: italic;
     font-weight: lighter;
+    width: 100%;
 }
 
 .tortuga {
@@ -143,17 +168,23 @@ h2 {
 }
 
 .CTA-button {
-    width: fit-content;
-    height: 1.5rem;
-    border-radius: 5px;
     position: relative;
     top: 1.6rem;
     left: 7rem;
 }
 
 /* multiple selectors same items diff
-sectons.  */
+sections.  */
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 5px;
     background-color: #3882f6;
+    color: #f9faf8;
+    padding: 1rem;
+    text-align: center;
 }
