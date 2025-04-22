@@ -177,6 +177,7 @@ h2 {
 sections.  */
 
 button {
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
