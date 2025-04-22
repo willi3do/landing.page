@@ -91,7 +91,10 @@ ul, li {
     width: 100%;
     font-size: 18px;
     color: #e5e7eb;
+}
 
+.sing-up_button {
+    border: none;
 }
 
 
@@ -177,7 +180,6 @@ h2 {
 sections.  */
 
 button {
-    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
