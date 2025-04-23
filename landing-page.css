@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     margin: 5%;
     gap: 1rem;
+    flex-wrap: nowrap;
     width: fit-content;
     height: auto;
 }
@@ -35,7 +36,9 @@ ul, li {
     justify-content: space-around;
     align-items: end;
     margin: 10px 0;
-    gap: 5rem;
+    width: 100%;
+    height: auto;
+    gap: 7rem;
 }
 
 .header-links {
@@ -55,13 +58,13 @@ ul, li {
 
 /* Sign up Section */
 .sign-up_section {
-    gap: 3rem ;
+    gap: 1rem ;
     color: #f9faf8;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    margin: 1% 1%;
+    margin: 1% 10%;
     background-color: #1f2937;
     box-sizing: border-box;
     object-fit: cover;
