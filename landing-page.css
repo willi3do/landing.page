@@ -155,10 +155,6 @@ h2 {
     font-weight: 900;
 }
 
-p {
-
-}
-
 
 /* <class GG> quote */
 
@@ -166,9 +162,10 @@ p {
     text-align: center;
     flex-wrap: wrap;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     background-color: #e5e7eb;
-    padding: 5rem;
+    padding: 3rem;
     width: fit-content;
 }
 
@@ -180,17 +177,11 @@ p {
     width: 100%;
 }
 
-.tortuga {
-    position: relative;
-    right: 4rem;
-    flex-shrink: 0;
-    top: 2rem;
-}
-
 /* call to action CTA */
 .CTA {
 
     display: flex;
+    justify-content: end;
     flex-direction: row;
     background-color: #3882f6;
 }
