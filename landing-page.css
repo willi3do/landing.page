@@ -193,10 +193,15 @@ h2 {
 }
 
 .CTA-container {
-    padding: 1rem;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 4%;
     gap: 0.5rem;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
 }
 
 .CTA-button {
