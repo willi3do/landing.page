@@ -129,7 +129,18 @@ ul, li {
     padding: 2rem;
     height: auto;
     width: 100%;
+}
 
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9faf8;
+    color: black;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .items {
@@ -142,13 +153,12 @@ ul, li {
     height: auto;
 }
 
-
-
 .box {
 border: 3px solid rgb(46, 55, 134);
-width: 150px;
-height: 150px;
+width: 100%;
+height: auto;
 border-radius: 10px;
+padding: 50px;
 }
 
 h2 {
@@ -157,7 +167,6 @@ h2 {
     font-size: 36px;
     font-weight: 900;
 }
-
 
 /* <class GG> quote */
 
@@ -205,9 +214,7 @@ h2 {
 }
 
 .CTA-button {
-    position: relative;
-    top: 1.6rem;
-    left: 7rem;
+    border: solid white;
 }
 
 /* multiple selectors same items diff
@@ -217,11 +224,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10rem;
-    height: 1.5rem;
-    border-radius: 5px;
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
+    flex-wrap: nowrap;
     background-color: #3882f6;
     color: #f9faf8;
-    padding: 1rem;
+    padding: 1rem 4rem;
     text-align: center;
+    flex-shrink: 0;
 }
