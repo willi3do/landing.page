@@ -1,0 +1,6 @@
+IdentityFile ~/.ssh/mybook
+
+Host github.com
+  HostName github.com
+  Port 22
+  User git
