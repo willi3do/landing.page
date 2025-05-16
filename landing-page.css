@@ -154,11 +154,11 @@ ul, li {
 }
 
 .box {
-border: 3px solid rgb(46, 55, 134);
-width: 100%;
-height: auto;
-border-radius: 10px;
-padding: 50px;
+    border: 3px solid rgb(46, 55, 134);
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 50px;
 }
 
 h2 {
@@ -233,4 +233,5 @@ button {
     padding: 1rem 4rem;
     text-align: center;
     flex-shrink: 0;
+    cursor: pointer;   
 }
