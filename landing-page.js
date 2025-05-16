@@ -1,10 +1,18 @@
 " use strict"
 
-const signUp = document.querySelectorAll("button");
-
-signUp.addEventListener('click', () => {
-    alert('Button clicked');
+const signUpButton = document.querySelector("#sign-up_Button");
+signUpButton.addEventListener("submit", function(event){
+    alert("what is your Username? :");
+    // console.log(event.target);
+    // console.log(event.type);
+    console.log("event.signUpButton");
 });
 
-console.log(signUp);
 
+/* commit changes and then make a new folder for the sign-up section  with 
+
+/signup folder
+├── signup.html
+├── signup.css
+└── signup.js
+*/
