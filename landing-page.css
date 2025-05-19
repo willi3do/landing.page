@@ -65,7 +65,7 @@ ul, li {
 /* Sign up Section */
 .sign-up_section {
     padding: 1%;
-    gap: 1rem ;
+    gap: 10px;
     color: #f9faf8;
     display: flex;
     justify-content: space-evenly;
@@ -145,11 +145,12 @@ ul, li {
 }
 
 .items {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+
     width: 100%;
     height: auto;
 }
@@ -159,7 +160,8 @@ ul, li {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    padding: 50px;
+    padding: 5px;
+    margin: 0 auto;
 }
 
 h2 {
