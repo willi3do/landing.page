@@ -90,6 +90,7 @@ ul, li {
 
 .content {
     background-color: cadetblue;
+    border-radius: 10px;
     gap: 1rem;
     width: 50%;
     height: auto;
