@@ -89,6 +89,7 @@ ul, li {
 }
 
 .content {
+    background-color: cadetblue;
     gap: 1rem;
     width: 50%;
     height: auto;
@@ -104,7 +105,7 @@ ul, li {
     height: auto;
     font-size: 48px;
     font-weight: 900;
-    width: 60%;
+    width: 100%;
 }
 
 .hero2 {
