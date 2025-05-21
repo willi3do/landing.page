@@ -20,11 +20,6 @@ body {
     height: auto;
 }
 
-ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 
 /* header */
 .header-container {
@@ -82,7 +77,7 @@ ul, li {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 400px;
+    max-width: 500px;
     object-fit: cover;
     height: auto;
     border-radius: 10px;
@@ -121,55 +116,68 @@ ul, li {
 }
 
 
-/* Product Section */
-.product-container {
+/* Image Gallery Section */
+.image-gallery {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 1rem;
-    padding: 2rem;
+    margin: 2rem;
+    padding: 1.5rem;
     height: auto;
     width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-wrap: wrap;
 }
 
-.product {
+.img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f9faf8;
+    /* background-color: #f9faf8; */
+    background-color: black;
     color: black;
     width: 100%;
     height: auto;
     gap: 1rem;
     flex-wrap: wrap;
+    margin: 1rem;
 }
 
-.items {
-    display: block;
+.image-card, .image-gallery {
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-
-    width: 100%;
+    width: 300px;
     height: auto;
+    overflow: hidden;
+    object-fit: cover
 }
 
-.box {
+img, .image-card {
     border: 3px solid rgb(46, 55, 134);
     width: 100%;
     height: auto;
     border-radius: 10px;
-    padding: 5px;
-    margin: 0 auto;
+    padding: 2%;
+   
 }
+
 
 h2 {
     text-align: center;
-    color: #2c2485;
+    color: #0ab18d;
     font-size: 36px;
     font-weight: 900;
+}
+
+figcaption {
+    font-size: 2rem;
 }
 
 /* <class GG> quote */
