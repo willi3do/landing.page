@@ -10,7 +10,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #1f2937;
+    background-color: #1f2937;;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +66,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    background-color: #1f2937;
+    background-color: #1f2937;;
     box-sizing: border-box;
     object-fit: cover;
     width: 100%;
@@ -84,7 +84,7 @@ body {
 }
 
 .content {
-    background-color: cadetblue;
+    background-color: #3cf7bf3d;
     border-radius: 10px;
     gap: 1rem;
     width: 50%;
@@ -148,36 +148,38 @@ body {
 }
 
 .image-card, .image-gallery {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    flex-direction: column;
-    width: 300px;
+    flex-direction: row;
+    width: auto;
     height: auto;
     overflow: hidden;
     object-fit: cover
 }
 
 img, .image-card {
-    border: 3px solid rgb(46, 55, 134);
+    /* border: 3px solid rgb(46, 55, 134); */
     width: 100%;
     height: auto;
-    border-radius: 10px;
-    padding: 2%;
+    border-radius: 5%;
+    padding: 1%;
    
 }
 
 
 h2 {
     text-align: center;
-    color: #0ab18d;
+    color: #3cf7bf3d;
     font-size: 36px;
     font-weight: 900;
 }
 
 figcaption {
     font-size: 2rem;
+    color: #3cf7bf3d;
+    font-weight: 600;
 }
 
 /* <class GG> quote */
