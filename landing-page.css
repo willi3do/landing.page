@@ -114,7 +114,7 @@ ul, li {
     color: #e5e7eb;
 }
 
-.sing-up_button {
+#sing-up_button {
     border: none;
 }
 
@@ -213,7 +213,7 @@ h2 {
     flex-direction: row;
 }
 
-.CTA-button {
+#CTA-button {
     border: solid white;
 }
 
