@@ -1,18 +1,23 @@
 " use strict"
 
-const signUpButton = document.querySelector("#sign-up_Button");
-signUpButton.addEventListener("submit", function(event){
-    alert("what is your Username? :");
-    // console.log(event.target);
-    // console.log(event.type);
-    console.log("event.signUpButton");
-});
+// const signUpButton = document.querySelector("#sign-up_Button");
+// signUpButton.addEventListener("submit", function(event){
+//     alert("what is your Username? :");
+//     // console.log(event.target);
+//     // console.log(event.type);
+//     console.log("event.signUpButton");
+// });
 
+const  signUpBtn= document.getElementById("sing-up_button");
+    signUpBtn.onclick = function signUpPage(){
+        window.open("/landing.page/sign-up/sign-up.html", "_blank");
+    }
 
-/* commit changes and then make a new folder for the sign-up section  with 
+    signUpBtn()
 
-/signup folder
-├── signup.html
-├── signup.css
-└── signup.js
-*/
+const ctaBtn = document.getElementById("CTA-button");
+    ctaBtn.onclick = function signUpPage(){
+        window.open("/landing.page/sign-up/sign-up.html", "_blank");
+    }
+
+    ctaBtn()
