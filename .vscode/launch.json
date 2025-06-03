@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Attach to Chrome",
             "port": 9222,
@@ -14,8 +15,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
+            "name": "Launch Chrome on localhost:5501",
+            "url": "http://localhost:5501",
             "webRoot": "${workspaceFolder}"
         }
     ]
